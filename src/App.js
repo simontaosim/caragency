@@ -15,6 +15,8 @@ const NoMatch = ({match}) =>
 
 </HomepageLayout>
 
+const validWechat = () => "vvjqeGW2bAx8g3p0"
+
 class App extends Component {
 
   render() {
@@ -27,7 +29,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route  path="/blog" component={Blogs} />
-            <Route  path="/login" component={Login} />
+            <Route exact path="/login" component={Login} />
+            <Route  path="/login/MP_verify_vvjqeGW2bAx8g3p0.txt" component={validWechat}/>
             <Route  path="/register" component={Regsiter} />
             <Route component={NoMatch}/>
           </Switch>

@@ -7,7 +7,7 @@ class Login extends React.Component {
         let form = new window.AuthingForm({
             clientId: "5ba35d77349e2d0001a5c00f",
             secret: "97951a35b37bc2235fbab161293509a1",
-            title: "巫力格格",
+            title: "万人车汇登录",
             hideOAuth: false,
           });
         form.on('login', function(user) {
