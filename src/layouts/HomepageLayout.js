@@ -94,11 +94,9 @@ class DesktopContainer extends Component {
                   </Menu.Item> :
                   <Menu.Item position='right'>
                   <Button as='a' href="/login" inverted={!fixed}>
-                    登录
+                    登录/注册
                   </Button>
-                  <Button as='a' href="/register" inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
-                    注册
-                  </Button>
+                 
                 </Menu.Item>
 
                 }
